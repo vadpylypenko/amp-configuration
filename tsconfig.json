@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "declaration": true,
+      "removeComments": true,
+      "esModuleInterop": true,
+      "target": "es6",
+      "outDir": "./lib",
+      "rootDir": "./src",
+      "baseUrl": "./",
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules"]
+}
